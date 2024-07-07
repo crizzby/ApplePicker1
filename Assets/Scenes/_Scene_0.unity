@@ -302,7 +302,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 2, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -425,13 +425,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 2526190271150350888, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5568444302426997282, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5568444302426997282, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5568444302426997282, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -464,6 +468,22 @@ PrefabInstance:
     - target: {fileID: 5568444302426997282, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660371622740850365, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660371622740850365, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 889688210898280548, guid: 288c51a7431b12f45964ca028f4bae99, type: 3}
+    - target: {fileID: 5660371622740850365, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
+      propertyPath: changeDirChance
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660371622740850365, guid: 7fd6ff5c0e7b63b45a329cc091d73c6a, type: 3}
+      propertyPath: leftAndRightEdge
+      value: 24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
