@@ -58,7 +58,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -74,10 +74,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbae40f0edc0e6f498979cc8464a5815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
-  speed: 1
+  applePrefab: {fileID: 889688210898280548, guid: 288c51a7431b12f45964ca028f4bae99, type: 3}
+  speed: 10
   leftAndRightEdge: 23
-  changeDirChance: 0.1
+  changeDirChance: 0.02
   appleDropDeley: 1
 --- !u!1 &2877981923277117185
 GameObject:
