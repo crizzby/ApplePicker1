@@ -31,6 +31,19 @@ public class HighScore : MonoBehaviour
         if(scoreToTry <= SCORE) return;
         SCORE = scoreToTry;
     }
+
+    [Tooltip("Check this box to reset the HighScore in Playerprefs")]
+    public bool resetHighScore = false;
+
+    void OnDrawGizmos()
+    { 
+    	if(resetHighScore)
+        {
+            resetHighScore = false;
+            PlayerPrefs.SetInt("HighScore", 1000);
+            Debug.LogWarning("PlayerPrefs HighScore reset ot 1.000.");
+        }
+    }
     // Start is called before the first frame update
 
 }
